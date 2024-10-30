@@ -14,7 +14,7 @@ import {
 
 export default function Provider(props) {
     const [open, setOpen] = React.useState(false);
-    const [providerData, setProviderData] = React.useState([]);
+    const [setProviderData] = React.useState([]);
     const [providerList, setProviderList] = React.useState([]);
     React.useEffect(() => {
         let imageProviderList = []
