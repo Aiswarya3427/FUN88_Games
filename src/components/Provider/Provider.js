@@ -14,7 +14,7 @@ import {
 
 export default function Provider(props) {
     const [open, setOpen] = React.useState(false);
-    const [setProviderData] = React.useState([]);
+    const [providerData, setProviderData] = React.useState([]);
     const [providerList, setProviderList] = React.useState([]);
     React.useEffect(() => {
         let imageProviderList = []
@@ -41,6 +41,7 @@ export default function Provider(props) {
         }
         setProviderData(provider);
         props.filter(provider);
+        console.log(providerData);
         setOpen(false)
     };
 
