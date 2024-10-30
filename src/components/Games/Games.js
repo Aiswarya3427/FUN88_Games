@@ -7,7 +7,7 @@ import Favorites from '../Favorites/Favorites';
 export default function Games(props) {
 
     const [data, setData] = React.useState([]);
-    const [setError] = React.useState([]);
+    const [error, setError] = React.useState([]);
     const [filterData, setFilterData] = React.useState([]);
     const [query, setQuery] = useState([]);
     const [favoriteItems, setFavoriteItems] = useState([]);
@@ -77,7 +77,7 @@ export default function Games(props) {
             ) :
                 <Grid>
                     <GridRow columns={3}>
-                        {data.map(function(item) {
+                        {data.map((item) => {
                             if (props.category === "Home") {
                                 return (
                                     <GridColumn key={item.id}>
@@ -97,7 +97,7 @@ export default function Games(props) {
                                     </GridColumn>
                                 )
                             }
-
+                            return "abc"
                         })}
 
                     </GridRow>
