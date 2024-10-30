@@ -32,13 +32,11 @@ export default function Provider(props) {
     }, []);
     const handleProviderClick = (providerData) => {
         let provider = [];
-        {
-            props.providerData.map((item) => {
+         props.providerData.map((item) => {
                 if (providerData === item.providerSrc) {
                     provider.push(item);
                 }
             })
-        }
         setProviderData(provider);
         props.filter(provider);
         console.log(providerData);
