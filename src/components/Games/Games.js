@@ -97,7 +97,6 @@ export default function Games(props) {
                                     </GridColumn>
                                 )
                             }
-                            return "abc"
                         })}
 
                     </GridRow>
