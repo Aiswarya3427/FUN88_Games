@@ -1,0 +1,102 @@
+[
+    {
+    "id":1,
+    "name":"Big Bad Wolf",
+    "src":"/images/bigbadwolf.png",
+    "provider":"Ezugi",
+    "category": "Start",
+    "providerSrc":"/images/ezugi.png"
+   
+    },
+    {
+    "id":2,
+    "name":"Sugar Rush",
+    "src":"/images/sugarRush.png",
+    "provider":"GamesGlobal",
+    "category": "New",
+    "providerSrc":"/images/games_global.png"
+    
+    },
+    {
+    "id":3,
+    "name":"Shaolin Crew",
+    "src":"/images/shaolinCrew.png",
+    "provider":"NetEnt",
+    "category": "Start",
+    "providerSrc":"/images/netEnt.png"
+   
+    },
+    {
+    "id":4,
+    "name":"Book Of Egypt",
+    "src":"/images/bookOfEgypt.png",
+    "provider":"GameArt",
+    "category": "New",
+    "providerSrc":"/images/gameArt.png"
+    },
+    {
+    "id":5,
+    "name":"Pirates Power",
+    "src":"/images/piratesPower.png",
+    "provider":"GameArt",
+    "category": "Slots",
+    "providerSrc":"/images/gameArt.png"
+    },
+    {
+    "id":6,
+    "name":"Crocodile Blitz Xtreme FB",
+    "src":"/images/crocodileBlitz.png",
+    "provider":"PlayTech",
+    "category": "Live",
+    "providerSrc":"/images/playTech.png"
+    },
+    {
+    "id":7,
+    "name":"Anaconda Wild 2 Power Play Jackpot",
+    "src":"/images/anacondaWild.png",
+    "provider":"Ezugi",
+    "category": "Jackpot",
+    "providerSrc":"/images/ezugi.png"
+   
+    },
+    {
+    "id":8,
+    "name":"Maya Jackpot",
+    "src":"/images/mayaJackpot.png",
+    "provider":"NetEnt",
+    "category": "Jackpot",
+    "providerSrc":"/images/netEnt.png"
+    },
+    {
+    "id":9,
+    "name":"Beach Life",
+    "src":"/images/beachLife.png",
+    "provider":"GameArt",
+    "category": "Slots",
+    "providerSrc":"/images/gameArt.png"
+    },
+    {
+    "id":10,
+    "name":"Inca Jackpot",
+    "src":"/images/incaJackpot.png",
+    "provider": "Red Tiger",
+    "category": "Jackpot",
+    "providerSrc":"/images/redTiger.png"
+    },
+    {
+    "id":11,
+    "name":"Pride Of Persia",
+    "src":"/images/PrideOfPersia.png",
+    "provider": "HackSaw",
+    "category": "Slots",
+    "providerSrc":"/images/hacksaw.png"
+    },
+    {
+    "id":12,
+    "name":"Azteca",
+    "src":"/images/azteca.png",
+    "provider":"Habenaro",
+    "category": "Live",
+    "providerSrc":"/images/habenaro.png"
+    }
+   ]
